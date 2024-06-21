@@ -1,0 +1,29 @@
+class Dmart1 {
+    static String chocolates1 = "KitKat";
+    static String chocolates2 = "Dairy Milk";
+    static String chocolates3 = "Snikers";
+    static String chocolates4 = "Silk";
+    static String chocolates5 = "munch";
+    static String chocolates6 = "oreo";
+    
+    static String[] chocolates = {"KitKat", "Dairy Milk", "Snikers", "Silk", "munch", "oreo"};
+
+    public static void main(String[] args) {
+        System.out.println(chocolates1);
+        System.out.println(chocolates2);
+        System.out.println(chocolates3);
+        System.out.println(chocolates4);
+        System.out.println(chocolates5);
+        System.out.println(chocolates6);
+        
+        System.out.println(chocolates[0]);
+        System.out.println(chocolates[1]);
+        System.out.println(chocolates[2]);
+        System.out.println(chocolates[3]);
+        System.out.println(chocolates[4]);
+        System.out.println(chocolates[5]); // This line tries to access chocolates[5]
+        
+        System.out.println("The Available Chocolates: " + chocolates[0] + ", " + chocolates[1] + ", " +
+                           chocolates[2] + ", " + chocolates[3] + ", " + chocolates[4] + ", " + chocolates[5]);
+    }
+}
